@@ -28,7 +28,8 @@ Standard Icecast style URL without a file extension.
 > Remember to set password, host, port and mount without brackets.
 > 
 > Username is default as source
-> Mount file extension is automatically set to the transport format (default: ogg)
+>
+> Mount point file extension is automatically set to the transport format (default: ogg)
 
 example:
 ```icecast://source:hackme@localhost:8000/stream```
