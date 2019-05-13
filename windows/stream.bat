@@ -18,6 +18,7 @@ rem Script
 SETLOCAL
 
 rem Piping
-%ffmpeg_path%\ffmpeg.exe -hide_banner -f dshow -rtbufsize 100M -i audio=%input_device% -ar %samplerate% -ac %channels% -c:a %codec% -content_type "audio/%wrapping%" -ice_name %name% -ice_description %description% %iceurl%.%wrapping%
+SET PATH=%ffmpeg_path%
+ffmpeg.exe -hide_banner -f dshow -rtbufsize 100M -i audio=%input_device% -ar %samplerate% -ac %channels% -c:a %codec% -content_type "audio/%wrapping%" -ice_name %name% -ice_description %description% %iceurl%.%wrapping%
 
 ENDLOCAL
