@@ -28,8 +28,7 @@ Standard Icecast style URL without a file extension.
 > Remember to set password, host, port and mount without brackets.
 > 
 > Username is default as source
->
-> Mount point file extension is automatically set to the transport format (default: ogg)
+> Mount file extension is automatically set to the transport format (default: ogg)
 
 example:
 ```icecast://source:hackme@localhost:8000/stream```
@@ -37,7 +36,7 @@ example:
 ## Run the Stream
 
 ### Start the script to connect your device to Icecast
-Run [stream.bat](windows/stream.bat) in Windows and leave it running.
+Run [start.bat](windows/start.bat) in Windows and leave it running. This will start both the icecast server as well as the ffmpeg stream.
 
 ### Start streaming audio into the device
 Run something like VLC or Foobar to play any file with the output device set to the same as your input device as configured. This will stream audio data in.

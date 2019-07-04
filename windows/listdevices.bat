@@ -1,4 +1,6 @@
 @echo off
+rem List Devuces - This script outputs all the directshow devices that ffmpeg can use.
+
 rem Variables
 SET ffmpeg_path="C:\Program Files\FFMpeg"
 

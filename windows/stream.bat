@@ -1,4 +1,6 @@
 @echo off
+rem Stream - This script runs the stream only, expecting a running Icecast Server
+
 rem Variables
 SET ffmpeg_path="C:\Program Files\FFMpeg"
 
