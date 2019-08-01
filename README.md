@@ -7,6 +7,9 @@ Helpful scripts to stream from an audio device (real or virtual) to an Icecast s
 2. A working Icecast server, local or remote. A free server software for streaming multimedia. See http://icecast.org/download/.
 3. FFMpeg, a complete, cross-platform solution to record, convert and stream audio and video. See https://www.ffmpeg.org/.
 
+## Notes
+Note: Playing your own stream using VLC and using FLAC encoding might have problems decoding the packets in certain versions, you can use Google Chrome, Foobar2000 or MediaPlayer Classic as an alternative!
+
 ## Setup
 Install FFMpeg and Icecast then update the appropriate path in each batch file,  [listdevices.bat](windows\listdevices.bat) and [stream.bat](windows/stream.bat). 
 
